@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="OPTION">
+        <menu>
+
+            <item android:id="@+id/nav_caidat"
+                android:icon="@drawable/setting"
+                android:title="Cai dat" />
+            <item android:id="@+id/nav_thoat"
+                android:icon="@drawable/exit"
+                android:title="Thoat" />
+        </menu>
+    </item>
+
+
+</menu>

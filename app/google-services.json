@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717142136255",
+    "firebase_url": "https://facebookmini-8bd33-default-rtdb.firebaseio.com",
+    "project_id": "facebookmini-8bd33",
+    "storage_bucket": "facebookmini-8bd33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717142136255:android:6cc7337bb60b3c6a06bd0a",
+        "android_client_info": {
+          "package_name": "com.example.facebookmini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717142136255-umo0ksjcjuitu9raomdrcfdha0mjgfhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facebookmini",
+            "certificate_hash": "8e666e9b2b5fde8fee38ebfef1a125dc4fd389e8"
+          }
+        },
+        {
+          "client_id": "717142136255-129ek3ts09mh31kr8a03vgnj6vqfjlks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqDT8jRaiNrvOJvjAjMuP3NSfm5nQ36d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717142136255-129ek3ts09mh31kr8a03vgnj6vqfjlks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

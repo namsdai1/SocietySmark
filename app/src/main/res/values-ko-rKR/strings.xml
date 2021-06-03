@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <string name="app_name" >내 응용 프로그램</string>
+        <string name="login" translatable="false">로그인</string>
+
+    </resources>

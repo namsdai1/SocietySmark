@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Light mode -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="cardbackground">#ffffff</item>
+        <item name="textcolor">@color/colorPrimaryDark</item>
+        <item name="tincolor">#000000</item>
+        <item name="buttoncolor">#2196f3</item>
+        <item name="backgroundcolorbotnavi">#E6E6E6</item>
+        <item name="toobarcolor">#282828</item>
+        <item name="android:windowAnimationStyle">
+
+            @style/windowanimationTranstion
+        </item>
+    </style>
+    <style name="darkthmeo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Dark mode -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="cardbackground">#424242</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tincolor">#ffffff</item>
+        <item name="buttoncolor">#2196f3</item>
+        <item name="backgroundcolorbotnavi">#333333</item>
+        <item name="toobarcolor">#121212</item>
+    </style>
+    <style name="windowanimationTranstion">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="false"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/REGISTER"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgUser"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/user"/>
+            <TextView
+                android:id="@+id/tvErrorImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edtUser"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+
+            android:hint="@string/Username"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/edtFullName"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:hint="@string/name"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:hint="@string/Email"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+
+            android:layout_gravity="center"/>
+
+
+        <Button
+
+            android:id="@+id/btnDangKy"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/REGISTER" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
